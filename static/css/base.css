@@ -1,5 +1,5 @@
 html {
-    height: 100% border: 10px solid pink
+    height: 100% border:
 }
 
 body {
@@ -70,9 +70,14 @@ body {
 	z-index: -1;
 }
 
+a.category-badge > span.badge:hover {
+	background: #212529 !important;
+	color: #fff !important;
+}
+
 /* --------------------- Media Quieries -----------------------*/
 
-/* Slightly larger then copntainer on xl screens */
+/* Slightly larger then container on xl screens */
 @media (min-width: 1200px) {
 	.container{
 		max-width: 80%;
@@ -99,6 +104,7 @@ body {
 	.header-container {
 		padding-top: 116px;
 	}
+	
 	.body {
 		height: calc(100vh - 116px);
 	}
